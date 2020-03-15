@@ -1,19 +1,4 @@
-## :warning: IMPORTANT! Instafeed.js will stop working completely on [March 2, 2020](https://developers.facebook.com/blog/post/2020/01/14/instagram-basic-display-api-long-lived-access-tokens-available/).
-
-## Instagram will not allow new integrations with instafeed.js.
-
-Before you decide to use instafeed.js, be aware that [Instagram is shutting down the API platform](https://developers.facebook.com/blog/post/2018/01/30/instagram-graph-api-updates/) that enables instafeed to work, and **is not issuing new user access tokens for this API**. As of now, instafeed.js works for some common uses (eg. embedding a single user's feed on a web page) _as long as you already have a legacy Access Token_. It will not work for new integrations or more complex uses (eg. retrieving all public images with a particular hashtag, finding posts based on a location, etc).
-
-The platform API will be turned off completely in 2020, which means that instafeed.js in its current form will stop working then.
-
-We're currently looking at ways to continue the instafeed.js experience with the new APIs, but no solution or road-map has been agreed upon yet.
-
-For more information on the current limitations of the API, please see the following:
-
-  - [Official API status](https://developers.facebook.com/blog/post/2018/01/30/instagram-graph-api-updates/)
-  - [Issue #345](https://github.com/stevenschobert/instafeed.js/issues/345)
-  - [Issue #571](https://github.com/stevenschobert/instafeed.js/issues/571)
-
+## Working branch for migration to the Instagram Basic Display API, March 2020.
 
 instafeed.js
 ============
